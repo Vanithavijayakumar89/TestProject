@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGPrograms" parallel="tests" thread-count="3">
+	
+	
+	<test name="Chrome Test Cases">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="TestNGPrograms.YourLogoLoginParallel" />
+		</classes>
+	</test> <!-- Test -->
+
+	
+	<test name="Firefox Test Cases">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="TestNGPrograms.YourLogoLoginParallel" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	
+	<test name="IE Test Cases">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="TestNGPrograms.YourLogoLoginParallel" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

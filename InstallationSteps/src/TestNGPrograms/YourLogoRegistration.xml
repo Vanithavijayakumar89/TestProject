@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGPrograms">
+	<test name="Your Logo Registration Flow">
+		<classes>
+			<class name="TestNGPrograms.YourLogoRegistration" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

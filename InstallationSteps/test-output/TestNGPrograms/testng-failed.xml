@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGPrograms]">
+  <test name="ECNRegistration Flow(failed)">
+    <classes>
+      <class name="TestNGPrograms.EcnRegistration">
+        <methods>
+          <include name="userDetails"/>
+          <include name="loginRegister"/>
+          <include name="pageLoad"/>
+          <include name="submit"/>
+        </methods>
+      </class> <!-- TestNGPrograms.EcnRegistration -->
+    </classes>
+  </test> <!-- ECNRegistration Flow(failed) -->
+</suite> <!-- Failed suite [TestNGPrograms] -->
